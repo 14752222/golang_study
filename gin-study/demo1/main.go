@@ -15,6 +15,7 @@ func main() {
 			"message": "pong",
 		})
 	})
+	
 	  // 启动服务器
     r.Run(":" + global.App.Config.App.Port)
 }
